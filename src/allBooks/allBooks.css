@@ -1,0 +1,50 @@
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+}
+.book-card {
+    margin: 10px;
+    text-align: center;
+    border: 5px solid black;
+    background-color: lightblue;
+    width: 250px;
+}
+.book-img {
+    height: 300px;
+    width: 250px;
+}
+.book-name {
+    font-size: 24px;
+}
+.book-author {
+    font-size: 18px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.drop-down-box {
+    align-self: center;
+
+}
+.search-bar {
+    align-self: center;
+    
+    
+} 
+select {
+    padding: 10px;
+
+}   
+input {
+    padding: 10px;
+
+}
