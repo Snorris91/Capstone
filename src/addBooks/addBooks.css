@@ -1,0 +1,23 @@
+.form {
+background-color: bisque;
+text-align: left;
+}
+.btn {
+    
+    padding: 10px;
+}
+
+input ,select {
+    width: fill;
+    font-size: large;
+}
+textarea {
+    width: fill;
+    font-size: large;
+    resize: none;
+}
+
+.form-field-des {
+    height:fit-content;
+    
+}
