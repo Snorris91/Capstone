@@ -1,23 +1,30 @@
 .form {
-background-color: bisque;
-text-align: left;
+    display: flex;
+    flex-direction: column;
+  background-color: bisque;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .btn {
-    
-    padding: 10px;
+    align-self: center;
+    width: 300px;
+    margin-bottom: 10px;
+  padding: 10px;
 }
 
-input ,select {
-    width: fill;
-    font-size: large;
+input,
+select {
+  width: fill;
+  font-size: large;
 }
 textarea {
-    width: fill;
-    font-size: large;
-    resize: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  width: fill;
+  font-size: larger;
+  resize: none;
 }
 
 .form-field-des {
-    height:fit-content;
-    
+  height: fit-content;
 }
