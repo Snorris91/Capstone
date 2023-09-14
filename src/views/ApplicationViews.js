@@ -3,6 +3,8 @@ import { NavBar } from "../components/NavBar"
 import { AllBooks } from "../allBooks/AllBooks"
 import { Welcome } from "../components/welcome/Welcome"
 import { AddBooks } from "../addBooks/AddBooks"
+import { Profile } from "../profile/Profile"
+import { BookDetails } from "../bookDetails/BookDetails"
 
 export const ApplicationViews = () => {
   return <Routes>
@@ -16,8 +18,12 @@ export const ApplicationViews = () => {
         }
       >
         <Route index element={<Welcome />}/>
-        <Route path="/allBooks" element={<AllBooks />} />
-        <Route path="/addBooks" element={<AddBooks />} />
+        <Route path="allBooks">
+          <Route index element={<AllBooks/>} />
+          <Route path=":bookId" element={<BookDetails />}/>
+          </Route> 
+        <Route path="addBooks" element={<AddBooks />} />
+        <Route path="profile" element={<Profile />} />
       </Route>
       </Routes>
 }

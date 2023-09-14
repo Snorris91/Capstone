@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.book-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.detail-title {
+ font-size: large;
+}
+.detail-author {
+font-size: large;
+}
+.detail-genre {
+font-size: large;
+}
+   
+
+
+.description {
+    margin: 20px;
+}

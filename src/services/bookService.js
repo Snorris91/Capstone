@@ -15,3 +15,8 @@ export const postNewBook = (book) => {
           body: JSON.stringify(book),
     })
 }
+
+
+export const getBookByBookId = (bookId) => {
+    return fetch(`http://localhost:8088/books/${bookId}?_embed=reviews`).then(res => res.json())
+}

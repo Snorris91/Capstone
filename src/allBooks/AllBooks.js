@@ -2,6 +2,7 @@ import "./allBooks.css";
 import { useEffect, useState } from "react";
 import { getAllBooks } from "../services/bookService";
 import { getGenreList } from "../services/genreService";
+import { Link } from "react-router-dom";
 
 export const AllBooks = () => {
   const [allBooks, setAllBooks] = useState([]);
@@ -75,7 +76,7 @@ export const AllBooks = () => {
         {filteredBooks.map((book) => {
           return (
             <div key={book.id} className="book-card">
-              <img src={book.image} alt={book.name} className="book-img" />
+              <Link to={`/allBooks/${book.id}`}><img src={book.image} alt={book.name} className="book-img" /></Link>
               <div className="book-name">
                 <i>{book.title}</i>
               </div>
