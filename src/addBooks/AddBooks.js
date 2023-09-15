@@ -57,6 +57,7 @@ export const AddBooks = () => {
             type="text"
             className="form-field"
             placeholder="Title of Book Here"
+            required
             onChange={handleInputChange}
           />
         </div>
@@ -69,6 +70,7 @@ export const AddBooks = () => {
             type="text"
             className="form-field"
             placeholder="Book Author Here"
+            required
             onChange={handleInputChange}
           />
         </div>
@@ -77,7 +79,7 @@ export const AddBooks = () => {
         <div>
           <label>Book Genre: </label>
           
-            <select className="form-field" name="genreId" 
+            <select className="form-field" name="genreId" required
             onChange={handleInputChange}>
               <option value="0">Select Genre</option>
               {genres.map((genre) => {
@@ -100,6 +102,7 @@ export const AddBooks = () => {
             rows="10"
             className="form-field-des"
             placeholder="Enter A Bried Description of The Book"
+            required
             onChange={handleInputChange}
           />
         </div>
@@ -112,6 +115,7 @@ export const AddBooks = () => {
             type="text"
             className="form-field"
             placeholder="Paste A Image URL"
+            required
             onChange={handleInputChange}
           />
         </div>
