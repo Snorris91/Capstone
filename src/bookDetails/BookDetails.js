@@ -11,7 +11,7 @@ export const BookDetails = () => {
   const [genre, setGenre] = useState([]);
   const [bookObj, setBook] = useState({});
   const { bookId } = useParams();
-  // const navigate = useNavigate()
+  const navigate = useNavigate()
 
   useEffect(() => {
     getBookByBookId(bookId).then((bookObj) => {
@@ -31,7 +31,6 @@ export const BookDetails = () => {
   useEffect(() => {
     const currentGenre = genre.find((genre) => genre.id === bookObj.genreId);
     setAssignedGenre(currentGenre);
-    console.log(currentGenre);
   }, [bookObj, genre]);
 
   return (
@@ -42,8 +41,10 @@ export const BookDetails = () => {
             <img src={bookObj.image} alt={bookObj.title} />
           </Link>
 
-          <div>
-            <button>Leave a Review</button>
+          <div key={bookObj.id}>
+            <button onClick={() => {
+              navigate(`/allBooks/${bookObj.id}/addReview`)
+            }}>Leave a Review</button>
           </div>
         </div>
         <div className="details">
@@ -63,7 +64,7 @@ export const BookDetails = () => {
         <div>
           {bookObj.reviews?.map((review) => {
             return (
-              <p>"{review.text}"</p> //insert link to user profile here
+              <li key={review.id}>"{review.text}" ~ </li> //insert link to user profile here
             );
           })}
         </div>

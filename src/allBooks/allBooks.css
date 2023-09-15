@@ -1,3 +1,5 @@
+
+
 .books-container {
     display: flex;
     flex-wrap: wrap;
@@ -28,8 +30,7 @@ h1 {
 .page-header {
     display: flex;
     justify-content: space-evenly;
-    margin-left: 10px;
-    margin-right: 10px;
+
 }
 .drop-down-box {
     align-self: center;

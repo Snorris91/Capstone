@@ -1,0 +1,21 @@
+.profile-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.profile-user {
+    text-align: center;
+    border: 5px solid black;
+    margin-left: 10%;
+}
+.profile-reviews {
+    border: 5px solid black;
+    margin-left: 10%;
+    width: 40%;
+    list-style: none;
+}
+
+.book-title{
+    font-weight: bold;
+}
