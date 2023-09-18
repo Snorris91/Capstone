@@ -5,6 +5,9 @@
 }
 
 .profile-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
     border: 5px solid black;
     margin-left: 10%;

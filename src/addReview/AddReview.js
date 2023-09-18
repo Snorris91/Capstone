@@ -2,12 +2,12 @@ import { useNavigate, useParams } from "react-router-dom";
 import "./addReview.css";
 import { useEffect, useState } from "react";
 import { getBookByBookId } from "../services/bookService";
-import { createUser, getUserById } from "../services/userService";
+import { getUserById } from "../services/userService";
 import { postNewReview } from "../services/reviewService";
 
 export const AddReview = ({ currentUser }) => {
   const [book, setBook] = useState({});
-  const [user, setUser] = useState([]);
+  const [user, setUser] = useState({});
   const navigate = useNavigate()
 
   const { bookId } = useParams();
@@ -43,7 +43,7 @@ export const AddReview = ({ currentUser }) => {
         text: newReview.text,
     }
     postNewReview(review).then(() => {
-        navigate(`/allBooks/${bookId}`)
+        navigate(`/profile`)
     })
   }
 
@@ -56,7 +56,7 @@ export const AddReview = ({ currentUser }) => {
           <h2>{book.title}</h2>
         </div>
         <form className="book-form">
-          <h1>{currentUser.name}</h1>
+          <h1>{user.name}</h1>
           <textarea
             name="text"
             className="text"
