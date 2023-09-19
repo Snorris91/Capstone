@@ -1,0 +1,14 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-details {
+    margin: 20px;
+    width: auto;
+}
+
+.review-details {
+    margin: 20px;
+    width: 60%;
+}

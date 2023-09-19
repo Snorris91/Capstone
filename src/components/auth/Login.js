@@ -1,7 +1,8 @@
-import React, { useState } from "react"
+import "./Login.css"
+import { useState } from "react"
 import { Link } from "react-router-dom"
 import { useNavigate } from "react-router-dom"
-import "./Login.css"
+
 import { getUserByEmail } from "../../services/userService"
 
 export const Login = () => {
@@ -57,7 +58,7 @@ export const Login = () => {
           </fieldset>
         </form>
       </section>
-      <section>
+      <section className="register">
         <Link to="/register">Not a member yet?</Link>
       </section>
     </main>

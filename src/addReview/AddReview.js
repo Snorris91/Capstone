@@ -1,5 +1,5 @@
-import { useNavigate, useParams } from "react-router-dom";
 import "./addReview.css";
+import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getBookByBookId } from "../services/bookService";
 import { getUserById } from "../services/userService";
@@ -14,7 +14,6 @@ export const AddReview = ({ currentUser }) => {
   useEffect(() => {
     getBookByBookId(bookId).then((bookObj) => {
       setBook(bookObj);
-      console.log(bookObj);
     });
 
     getUserById(currentUser.id).then((userObj) => {
@@ -37,12 +36,7 @@ export const AddReview = ({ currentUser }) => {
   const handleSubmit = (event) => {
     event.preventDefault()
 
-    const review = {
-        bookId: newReview.bookId,
-        userId: newReview.userId,
-        text: newReview.text,
-    }
-    postNewReview(review).then(() => {
+    postNewReview(newReview).then(() => {
         navigate(`/profile`)
     })
   }
@@ -53,10 +47,10 @@ export const AddReview = ({ currentUser }) => {
       <div className="add-review-container">
         <div className="book-details">
           <img src={book.image} alt={book.title} />
-          <h2>{book.title}</h2>
+          <h2><span className="book-title">{book.title}</span></h2>
         </div>
         <form className="book-form">
-          <h1>{user.name}</h1>
+          <h1>{user?.name}</h1>
           <textarea
             name="text"
             className="text"

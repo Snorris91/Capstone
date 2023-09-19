@@ -1,30 +1,23 @@
-import { useEffect, useState } from "react";
 import "./bookDetails.css";
+import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { getBookByBookId } from "../services/bookService";
-import { getUser } from "../services/userService";
 import { getGenreList } from "../services/genreService";
 
 export const BookDetails = () => {
-  const [user, setUser] = useState([]);
   const [assignedGenre, setAssignedGenre] = useState({});
   const [genre, setGenre] = useState([]);
   const [bookObj, setBook] = useState({});
   const { bookId } = useParams();
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   useEffect(() => {
     getBookByBookId(bookId).then((bookObj) => {
       setBook(bookObj);
-      console.log(bookObj);
     });
 
     getGenreList().then((genreObj) => {
       setGenre(genreObj);
-    });
-
-    getUser().then((userObj) => {
-      setUser(userObj);
     });
   }, [bookId]);
 
@@ -41,10 +34,14 @@ export const BookDetails = () => {
             <img src={bookObj.image} alt={bookObj.title} />
           </Link>
 
-          <div key={bookObj.id}>
-            <button onClick={() => {
-              navigate(`/allBooks/${bookObj.id}/addReview`)
-            }}>Leave a Review</button>
+          <div className="button-area" key={bookObj?.id}>
+            <button className="review-btn1"
+              onClick={() => {
+                navigate(`/allBooks/${bookObj.id}/addReview`);
+              }}
+            >
+              Leave a Review
+            </button>
           </div>
         </div>
         <div className="details">
@@ -64,7 +61,9 @@ export const BookDetails = () => {
         <div>
           {bookObj.reviews?.map((review) => {
             return (
-              <li key={review.id}>"{review.text}" ~ </li> //insert link to user profile here
+              <Link key={review.id} to={`/profile/${review.userId}/profile`}>
+                <li className="review">"{review.text}" ~ </li>
+              </Link>
             );
           })}
         </div>
