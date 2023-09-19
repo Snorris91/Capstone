@@ -33,3 +33,9 @@ export const editUser = (user) => {
     body: JSON.stringify(user),
   }).then((res) => res.json());
 };
+
+export const getAllUserDetails = (userId) => {
+  return fetch(`http://localhost:8088/users/${userId}?_embed=reviews`).then((res) =>
+  res.json()
+);
+}

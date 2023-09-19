@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://media.discordapp.net/attachments/1050562722137387128/1153528997435682888/Vishus_library_website_background_5ccf325c-4b29-4cbc-bd1b-68999d6c3792.png?width=676&height=676);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {

@@ -1,24 +1,48 @@
 .profile-container {
-    display: flex;
-    flex-direction: row;
-
+  display: flex;
+  flex-direction: row;
 }
 
 .profile-user {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-    border: 5px solid black;
-    margin-left: 10%;
+    background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  border: 5px solid black;
+  margin-left: 10%;
+  width: 25%;
+  padding: 10px;
 }
 .profile-reviews {
-    border: 5px solid black;
-    margin-left: 10%;
-    width: 40%;
-    list-style: none;
+    background-color: beige;
+  border: 5px solid black;
+  margin-left: 10%;
+  width: 45%;
+  list-style: none;
 }
 
-.book-title{
-    font-weight: bold;
+.book-title1 {
+    color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+.btn-profile {
+    background-color: rgba(5, 184, 255, 0.473) ;
+  margin-bottom: 10px;
+  align-self: center;
+  width: 200px;
+  padding: 8px;
+}
+.btn-edit {
+    margin: 5px;
+  background-color: rgba(4, 252, 4, 0.568);
+  padding: 5px;
+  width: 100px;
+}
+.btn-delete {
+  width: 100px;
+  background-color: rgba(255, 0, 0, 0.678);
+  padding: 5px;
 }

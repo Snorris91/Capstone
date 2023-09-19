@@ -1,0 +1,13 @@
+.form-container {
+    background-color: bisque;
+    font-family: fantasy;
+}
+
+.btn-area {
+    background-color: lightgreen;
+    padding: 15px;
+    margin-top: 10px;
+    width: 150px;
+    font-size: larger;
+    font-weight: bold;
+}

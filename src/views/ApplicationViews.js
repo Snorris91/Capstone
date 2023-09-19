@@ -1,3 +1,4 @@
+import "./appView.css"
 import { Outlet, Route, Routes } from "react-router-dom";
 import { NavBar } from "../components/NavBar";
 import { AllBooks } from "../allBooks/AllBooks";
@@ -9,6 +10,7 @@ import { useEffect, useState } from "react";
 import { AddReview } from "../addReview/AddReview";
 import { EditProfile } from "../editProfile/EditProfile";
 import { EditReview } from "../editReview/EditReview";
+import { OtherProfile } from "../otherProfile/OtherProfile";
 
 export const ApplicationViews = () => {
   const [currentUser, setCurrentUser] = useState({});
@@ -21,6 +23,7 @@ export const ApplicationViews = () => {
   }, []);
 
   return (
+    <div className="page-back">
     <Routes>
       <Route
         path="/"
@@ -47,10 +50,11 @@ export const ApplicationViews = () => {
         <Route path="profile">
           <Route index element={<Profile currentUser={currentUser} />} />
           {/* <Route path=":userId"  element={<Profile currentUser={currentUser} />}/> */}
+          <Route path=":userId/profile" element={<OtherProfile />}/>
           <Route path=":userId/edit" element={<EditProfile currentUser={currentUser}/>}/>
           <Route path=":reviewId/review" element={<EditReview currentUser={currentUser}/>}/>
         </Route>
       </Route>
-    </Routes>
+    </Routes></div>
   );
 };

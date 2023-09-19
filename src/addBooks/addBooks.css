@@ -1,26 +1,26 @@
 .form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   background-color: bisque;
   text-align: left;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .btn {
-    align-self: center;
-    width: 300px;
-    margin-bottom: 10px;
+  align-self: center;
+  width: 300px;
+  margin-bottom: 10px;
   padding: 10px;
 }
 
 input,
 select {
-  width: fill;
+  width: stretch;
   font-size: large;
 }
 textarea {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-  width: fill;
+
+  width: stretch;
   font-size: larger;
   resize: none;
 }

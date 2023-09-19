@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
 import "./profile.css";
+import { useEffect, useState } from "react";
 import { getUserById } from "../services/userService";
 import { Link, useNavigate } from "react-router-dom";
 import { deleteReview,  getExpandedReviews } from "../services/reviewService";
@@ -18,7 +18,6 @@ export const Profile = ({ currentUser }) => {
 
     getExpandedReviews(currentUser).then((reviewObj) => {
       setReview(reviewObj);
-      // console.log(review)
     });
   }, [currentUser, rerender]);
 
@@ -43,7 +42,7 @@ export const Profile = ({ currentUser }) => {
           <h2>{user?.name}</h2>
           <h2>{user?.email}</h2>
           <h2>{user?.phone}</h2>
-          <button
+          <button className="btn-profile"
             onClick={() => {
               navigate(`/profile/${user.id}/edit`);
             }}
@@ -59,15 +58,15 @@ export const Profile = ({ currentUser }) => {
                   <Link to={`/allBooks/${review.bookId}`} value={review.userId}>
                     <li className="review-text" value={review.id}>
                       My Review for{" "}
-                      <span className="book-title">{review.book.title}</span>:
+                      <span className="book-title1">{review.book.title}</span>:
                       <br></br>~ {review.text}
                     </li>
                   </Link>{" "}
                   <div>
-                    <button onClick={() => {
+                    <button className="btn-edit" onClick={() => {
                       navigate(`/profile/${review.id}/review`)
                     }}>Edit</button>
-                    <button onClick={() => {handleDelete(review)}}>Delete</button>
+                    <button className="btn-delete" onClick={() => {handleDelete(review)}}>Delete</button>
                   </div>
                 </div>
               );

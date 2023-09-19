@@ -14,12 +14,10 @@ export const AllBooks = () => {
   useEffect(() => {
     getAllBooks().then((booksArray) => {
       setAllBooks(booksArray);
-      console.log(booksArray);
     });
 
     getGenreList().then((genreArray) => {
       setGenre(genreArray);
-      console.log(genreArray);
     });
   }, []);
 
@@ -44,7 +42,7 @@ export const AllBooks = () => {
     <div className="books">
       <header className="page-header">
         <div className="drop-down-box">
-          <select
+          <select 
             onChange={(event) => {
               setChosenGenre(event.target.value);
             }}
