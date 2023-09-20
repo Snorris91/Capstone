@@ -30,20 +30,22 @@ export const EditReview = () => {
   };
 
   return (
-    <form>
-      <h1>KENOBI</h1>
+    <form className="form-area">
+      <h1><span className="form-title">Edit Your Review</span></h1>
       <fieldset>
         <div className="display-container">
           <div>
             <img src={review.book?.image} alt={review.book?.title} />
           </div>
 
-          <div>
+          <div className="current-review">
             <label>
-              <span>Your Current Review for</span>
-              <br></br> <span>{review.book?.title}</span>:
+              <span className="book-title-edit-review">Your Current Review for</span>
+              <br></br> <span className="book-title-edit-review">{review.book?.title}</span>:
             </label>
-            <input
+            <textarea
+              cols={30}
+              rows={10}
               name="review"
               value={review.text ? review.text : ""}
               type="text"
@@ -54,7 +56,7 @@ export const EditReview = () => {
                 setReview(reviewCopy);
               }}
             />
-            <button onClick={handleSave}>Update Review</button>
+            <button className="edit-review-btn" onClick={handleSave}>Update Review</button>
           </div>
         </div>
       </fieldset>

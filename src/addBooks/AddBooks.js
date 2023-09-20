@@ -48,7 +48,7 @@ export const AddBooks = () => {
 
   return (
     <form className="form"> 
-      <h1>Add A New Book!</h1>
+      <h1 className="title">Add A New Book!</h1>
       <fieldset>
         <div>
           <label>Book Title: </label>
@@ -57,6 +57,7 @@ export const AddBooks = () => {
             type="text"
             className="form-field"
             placeholder="Title of Book Here"
+            autocomplete="off"
             required
             onChange={handleInputChange}
           />
@@ -70,6 +71,7 @@ export const AddBooks = () => {
             type="text"
             className="form-field"
             placeholder="Book Author Here"
+            autocomplete="off"
             required
             onChange={handleInputChange}
           />
@@ -101,6 +103,7 @@ export const AddBooks = () => {
             type="text"
             rows="10"
             className="form-field-des"
+            autocomplete="off"
             placeholder="Enter A Bried Description of The Book"
             required
             onChange={handleInputChange}
@@ -115,12 +118,13 @@ export const AddBooks = () => {
             type="text"
             className="form-field"
             placeholder="Paste A Image URL"
+            autocomplete="off"
             required
             onChange={handleInputChange}
           />
         </div>
       </fieldset>
-      <button className="btn" onClick={handleSubmit}>Submit Book So Others Can Enjoy</button>
+      <button className="submit-btn" onClick={handleSubmit}>Submit Book So Others Can Enjoy</button>
     </form>
   );
 };

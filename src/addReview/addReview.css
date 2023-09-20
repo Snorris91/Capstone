@@ -8,25 +8,33 @@
   margin: 48px;
 }
 
-h2 {
+.title-text {
+  color: black;
   text-align: center;
 }
 
 .book-form {
   display: flex;
+  background-color: bisque;
   flex-direction: column;
   padding: 10px;
   width: 60%;
 }
 .text {
+
   margin-bottom: 20px;
 }
 
 .review-btn {
   padding: 15px;
+  background-color: rgb(20, 245, 20);
+  border-radius: 25px;
   font-size: large;
+  
 }
 
-.book-title {
-  color: white
+.book-title {  
+  text-shadow: 1px 1px 1px black ;
+  color: white;
+  text-align: center;
 }

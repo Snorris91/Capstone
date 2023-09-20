@@ -4,45 +4,82 @@
 }
 
 .profile-user {
-    background-color: beige;
+  background-color: beige;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
-  border: 5px solid black;
+  border: 5px solid white;
   margin-left: 10%;
-  width: 25%;
+  width: auto;
   padding: 10px;
 }
 .profile-reviews {
-    background-color: beige;
-  border: 5px solid black;
+  background-color: beige;
+  border: 5px solid white;
   margin-left: 10%;
   width: 45%;
   list-style: none;
 }
 
 .book-title1 {
-    color: black;
+  color: black;
   font-weight: bold;
   font-size: large;
 }
 
 .btn-profile {
-    background-color: rgba(5, 184, 255, 0.473) ;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(5, 184, 255, 0.473);
   margin-bottom: 10px;
   align-self: center;
   width: 200px;
   padding: 8px;
+  border-radius: 10px;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
+.btn-profile:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-profile:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+.btn-profile:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
 .btn-edit {
-    margin: 5px;
-  background-color: rgba(4, 252, 4, 0.568);
+  margin: 5px;
+  background-color: rgba(129, 250, 129, 0.568);
   padding: 5px;
   width: 100px;
+  border-radius: 10px;
 }
+
+.btn-edit:hover {
+  background: #09ff15
+}
+
 .btn-delete {
   width: 100px;
-  background-color: rgba(255, 0, 0, 0.678);
+  background-color: rgba(247, 108, 108, 0.548);
   padding: 5px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+
+.btn-delete:hover {
+  background: #ff0101e3
+
 }

@@ -10,9 +10,17 @@
 
 }
 .details {
+    text-shadow: 2px 1px 2px black;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.text-details {
+    
+    color: white;
+    text-align: center;
+    margin-top: -10px;
 }
 
 .detail-title {
@@ -25,6 +33,8 @@ font-size: large;
 font-size: large;
 }
 .review {
+    text-shadow: 2px 1px 2px black;
+    padding: 10px 0px;
     color: white;
 }
    
@@ -32,6 +42,7 @@ font-size: large;
 
 .description {
     color: white;
+    text-shadow: 2px 1px 2px black;
     margin: 20px;
 }
 
@@ -42,11 +53,32 @@ font-size: large;
 
 .review-btn1 {
     font-size: large;
+    cursor: pointer;
     background-color: rgb(15, 247, 247);
     margin-top: 5px;
     padding: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
     
 }
+.review-btn1:after {
+    content: "»";
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .review-btn1:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+  }
+  .review-btn1:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
 
 img {
     box-shadow: 0px 0px 10px 5px white;

@@ -59,6 +59,8 @@ export const BookDetails = () => {
           </h1>
         </div>
         <div>
+          <h1>Reviews</h1>
+          <p className="text-details">Click a review to visit their profile!</p>
           {bookObj.reviews?.map((review) => {
             return (
               <Link key={review.id} to={`/profile/${review.userId}/profile`}>

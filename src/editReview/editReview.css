@@ -1,4 +1,50 @@
+
+.form-area {
+        background-color: bisque;
+}
+.form-title {
+    color: black;
+}
 .display-container {
     display: flex;
     justify-content: space-evenly;
 }
+.current-review {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.book-title-edit-review {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.edit-review-btn {
+    align-self: center;
+    font-size: large;
+    padding: 10px;
+    width: 200px;
+    border-radius: 25px;
+    margin-top: 10px;
+    background-color: rgb(2, 255, 2);
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.edit-review-btn:after {
+    content: "→";
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .edit-review-btn:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+  }
+  .edit-review-btn:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
