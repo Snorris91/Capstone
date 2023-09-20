@@ -5,11 +5,35 @@
   text-align: left;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.btn {
+
+.submit-btn {
+  font-weight: bold;
   align-self: center;
   width: 300px;
   margin-bottom: 10px;
   padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(5, 255, 80);
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.submit-btn:after {
+  content: "→";
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.submit-btn:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+.submit-btn:hover:after {
+  opacity: 1;
+  right: 10px;
 }
 
 input,

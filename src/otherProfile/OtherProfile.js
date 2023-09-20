@@ -25,10 +25,11 @@ export const OtherProfile = () => {
         </div>
         <div className="review-details">
             <h2>My Reviews</h2>
+            <p className="details-other">Click a review to visit the Book!</p>
           {user.reviews?.map((review) => {
             return (
                 <Link key={review?.id} to={`/allBooks/${review?.bookId}`}>
-                <li>{review?.text}</li>
+                <li className="review-text">{review?.text}</li>
                 </Link>
             
           )})}

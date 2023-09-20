@@ -7,7 +7,7 @@ export const NavBar = () => {
     const navigate = useNavigate()
 
   return (
-    <ul className="navbar">
+    <ul className="navbar rainbow_background_animated">
       <li className="navbar-item">
         <Link to="/allBooks">All Books</Link>
       </li>

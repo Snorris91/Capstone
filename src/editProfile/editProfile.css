@@ -3,11 +3,37 @@
     font-family: fantasy;
 }
 
+.title {
+    font-weight: lighter;
+    color: black;
+}
+
 .btn-area {
-    background-color: lightgreen;
+    background-color: rgb(67, 241, 67);
     padding: 15px;
     margin-top: 10px;
     width: 150px;
+    border-radius: 25px;
     font-size: larger;
     font-weight: bold;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
+.btn-area:after {
+    content: "→";
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn-area:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+  }
+  .btn-area:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  

@@ -47,10 +47,10 @@ export const AddReview = ({ currentUser }) => {
       <div className="add-review-container">
         <div className="book-details">
           <img src={book.image} alt={book.title} />
-          <h2><span className="book-title">{book.title}</span></h2>
+          <h2 className="book-title"><span >{book.title}</span></h2>
         </div>
         <form className="book-form">
-          <h1>{user?.name}</h1>
+          <h1 className="title-text">{user?.name}</h1>
           <textarea
             name="text"
             className="text"
