@@ -1,9 +1,15 @@
 .main-container {
+    
     display: flex;
     flex-direction: row;
 }
 
+.review-title {
+    text-align: center;
+}
+
 .user-details {
+    text-align: center;
     color: black;
     border: 5px solid white;
     background-color: bisque;

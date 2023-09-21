@@ -57,7 +57,7 @@ export const AddBooks = () => {
             type="text"
             className="form-field"
             placeholder="Title of Book Here"
-            autocomplete="off"
+            autoComplete="off"
             required
             onChange={handleInputChange}
           />
@@ -71,7 +71,7 @@ export const AddBooks = () => {
             type="text"
             className="form-field"
             placeholder="Book Author Here"
-            autocomplete="off"
+            autoComplete="off"
             required
             onChange={handleInputChange}
           />
@@ -103,8 +103,8 @@ export const AddBooks = () => {
             type="text"
             rows="10"
             className="form-field-des"
-            autocomplete="off"
-            placeholder="Enter A Bried Description of The Book"
+            autoComplete="off"
+            placeholder="Enter A Brief Description of The Book"
             required
             onChange={handleInputChange}
           />
@@ -118,7 +118,7 @@ export const AddBooks = () => {
             type="text"
             className="form-field"
             placeholder="Paste A Image URL"
-            autocomplete="off"
+            autoComplete="off"
             required
             onChange={handleInputChange}
           />
