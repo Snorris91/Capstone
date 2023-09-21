@@ -24,7 +24,7 @@ export const OtherProfile = () => {
           <h2>{user?.phone}</h2>
         </div>
         <div className="review-details">
-            <h2>My Reviews</h2>
+            <h2 className="review-title">My Reviews</h2>
             <p className="details-other">Click a review to visit the Book!</p>
           {user.reviews?.map((review) => {
             return (
