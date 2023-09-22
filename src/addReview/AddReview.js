@@ -8,7 +8,7 @@ import { postNewReview } from "../services/reviewService";
 export const AddReview = ({ currentUser }) => {
   const [book, setBook] = useState({});
   const [user, setUser] = useState({});
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const { bookId } = useParams();
   useEffect(() => {
@@ -34,12 +34,12 @@ export const AddReview = ({ currentUser }) => {
   };
 
   const handleSubmit = (event) => {
-    event.preventDefault()
+    event.preventDefault();
 
     postNewReview(newReview).then(() => {
-        navigate(`/profile`)
-    })
-  }
+      navigate(-1);
+    });
+  };
 
   return (
     <>
@@ -47,7 +47,9 @@ export const AddReview = ({ currentUser }) => {
       <div className="add-review-container">
         <div className="book-details">
           <img src={book.image} alt={book.title} />
-          <h2 className="book-title"><span >{book.title}</span></h2>
+          <h2 className="book-title">
+            <span>{book.title}</span>
+          </h2>
         </div>
         <form className="book-form">
           <h1 className="title-text">{user?.name}</h1>
@@ -59,7 +61,9 @@ export const AddReview = ({ currentUser }) => {
             required
             onChange={handleInputChange}
           ></textarea>
-          <button onClick={handleSubmit} className="review-btn">Submit Review</button>
+          <button onClick={handleSubmit} className="review-btn">
+            Submit Review
+          </button>
         </form>
       </div>
     </>
