@@ -5,6 +5,8 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 h1 {
     

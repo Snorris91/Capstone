@@ -1,5 +1,6 @@
 .container-login {
   text-align: center;
+  
 }
 
 .container-login > section > a {
@@ -8,6 +9,7 @@
 }
 
 .form-login {
+  background-color: rgb(226, 194, 151);
   width: 60%;
   margin: 2rem auto;
 }
@@ -28,7 +30,12 @@
 }
 
 .login-btn {
+  background-color: rgb(206, 139, 15);
   align-self: flex-end;
+  font-size:x-large;
+  width: 150px;
+  padding: 10px;
+  border-radius: 25px;
 }
 
 .login-btn:focus {

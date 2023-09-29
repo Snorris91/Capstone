@@ -1,5 +1,5 @@
 import "./addReview.css";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getBookByBookId } from "../services/bookService";
 import { getUserById } from "../services/userService";
@@ -46,7 +46,10 @@ export const AddReview = ({ currentUser }) => {
       <h1>ADD BOOK REVIEW</h1>
       <div className="add-review-container">
         <div className="book-details">
+          <Link to={`/allBooks/${book.id}`}>
           <img src={book.image} alt={book.title} />
+          </Link>
+          
           <h2 className="book-title">
             <span>{book.title}</span>
           </h2>

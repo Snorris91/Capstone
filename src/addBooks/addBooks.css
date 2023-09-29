@@ -11,9 +11,9 @@
   align-self: center;
   width: 300px;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 20px;
   border-radius: 25px;
-  background-color: rgb(5, 255, 80);
+  background-color:  rgb(206, 139, 15);
   display: inline-block;
   position: relative;
   transition: 0.5s;
@@ -40,6 +40,7 @@ input,
 select {
   width: stretch;
   font-size: large;
+  background-color: white;
 }
 textarea {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -51,4 +52,9 @@ textarea {
 
 .form-field-des {
   height: fit-content;
+}
+
+.form-field > input {
+  color: azure;
+  
 }

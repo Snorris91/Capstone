@@ -1,7 +1,7 @@
 import "./editReview.css";
 import { useEffect, useState } from "react";
 import { editReview, getCurrentReviewById } from "../services/reviewService";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 
 export const EditReview = () => {
   const navigate = useNavigate();
@@ -35,7 +35,10 @@ export const EditReview = () => {
       <fieldset>
         <div className="display-container">
           <div>
-            <img src={review.book?.image} alt={review.book?.title} />
+            <Link to={`/allBooks/${review.book?.id}`}>
+              <img src={review.book?.image} alt={review.book?.title} />
+            </Link>
+          
           </div>
 
           <div className="current-review">

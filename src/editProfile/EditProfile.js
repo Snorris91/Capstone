@@ -83,7 +83,7 @@ export const EditProfile = ({ currentUser }) => {
               }}
             />
           </div>
-          <div>
+          <div className="btn-container">
             <button className="btn-area" onClick={handleSave}>Save</button>
           </div>
         </div>

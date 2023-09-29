@@ -27,11 +27,34 @@
 
 .review-btn {
   padding: 15px;
-  background-color: rgb(20, 245, 20);
+  align-self: center;
+  width: 200px;
+  background-color: rgb(206, 139, 15);
   border-radius: 25px;
   font-size: large;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
   
 }
+
+.review-btn:after {
+  content: "→";
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.review-btn:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+.review-btn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
 
 .book-title {  
   text-shadow: 1px 1px 1px black ;
