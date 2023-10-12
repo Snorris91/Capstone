@@ -24,15 +24,15 @@ export const OtherProfile = () => {
           <h2>{user?.phone}</h2>
         </div>
         <div className="review-details">
-            <h2 className="review-title">My Reviews</h2>
-            <p className="details-other">Click a review to visit the Book!</p>
+          <h2 className="review-title">My Reviews</h2>
+          <p className="details-other">Click a review to visit the Book!</p>
           {user.reviews?.map((review) => {
             return (
-                <Link key={review?.id} to={`/allBooks/${review?.bookId}`}>
+              <Link key={review?.id} to={`/allBooks/${review?.bookId}`}>
                 <li className="review-text">{review?.text}</li>
-                </Link>
-            
-          )})}
+              </Link>
+            );
+          })}
         </div>
       </div>
     </>

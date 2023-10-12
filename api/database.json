@@ -1,0 +1,476 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "name": "Fiction"
+    },
+    {
+      "id": 2,
+      "name": "Mystery"
+    },
+    {
+      "id": 3,
+      "name": "Science Fiction"
+    },
+    {
+      "id": 4,
+      "name": "Fantasy"
+    },
+    {
+      "id": 5,
+      "name": "Romance"
+    },
+    {
+      "id": 6,
+      "name": "Thriller"
+    },
+    {
+      "id": 7,
+      "name": "Horror"
+    },
+    {
+      "id": 8,
+      "name": "Biography"
+    },
+    {
+      "id": 9,
+      "name": "Historical Fiction"
+    },
+    {
+      "id": 10,
+      "name": "Adventure"
+    },
+    {
+      "id": 11,
+      "name": "Non-fiction"
+    },
+    {
+      "id": 12,
+      "name": "Young Adult"
+    },
+    {
+      "id": 13,
+      "name": "Science"
+    },
+    {
+      "id": 14,
+      "name": "Self-Help"
+    },
+    {
+      "id": 15,
+      "name": "Satire"
+    },
+    {
+      "id": 16,
+      "name": "Poetry"
+    },
+    {
+      "id": 17,
+      "name": "History"
+    },
+    {
+      "id": 18,
+      "name": "Religion"
+    },
+    {
+      "id": 19,
+      "name": "Philosophy"
+    },
+    {
+      "id": 20,
+      "name": "Travel"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jonathan Smith",
+      "email": "john.smith@example.com",
+      "phone": "6165897523"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "phone": "6158963202"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "email": "michael.johnson@example.com",
+      "phone": "6157894587"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "phone": "6169782235"
+    },
+    {
+      "id": 5,
+      "name": "David Wilson",
+      "email": "david.wilson@example.com",
+      "phone": "4042561478"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Brown",
+      "email": "sophia.brown@example.com",
+      "phone": "2028675309"
+    },
+    {
+      "email": "Spencer.serv@gmail.com",
+      "name": "Spencer Norris",
+      "phone": "6155568210",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "Val Freeman",
+      "email": "Val@email.com",
+      "phone": "5245666666"
+    },
+    {
+      "email": "monir@email.com",
+      "name": "Monir Madkour ",
+      "phone": "6152326369",
+      "id": 9
+    },
+    {
+      "email": "nathan@gmail.com",
+      "name": "Nathan Norris",
+      "phone": "6525452525",
+      "id": 10
+    },
+    {
+      "id": 11,
+      "name": "Kevin Duck number1",
+      "email": "WannaBeQual@email.com",
+      "phone": "4548979875"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "The Wanderer",
+      "author": "Sharon Creech",
+      "genreId": 10,
+      "description": "Thirteen-year-old Sophie hears the sea calling, promising adventure and a chance for discovery as she sets sail for England with her three uncles and two cousins. Sophie's cousin Cody isn't so sure he has the strength to prove himself to the crew and to his father.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Cover_art_of_The_Wanderer_by_Sharon_Creech.jpeg/220px-Cover_art_of_The_Wanderer_by_Sharon_Creech.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "genreId": 15,
+      "description": "A farm is taken over by its overworked, mistreated animals. With flaming idealism and stirring slogans, they set out to create a paradise of progress, justice, and equality. Thus the stage is set for one of the most telling satiric fables ever penned—a razor-edged fairy tale for grown-ups that records the evolution from revolution against tyranny to a totalitarianism just as terrible.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Animal_Farm_-_1st_edition.jpg/220px-Animal_Farm_-_1st_edition.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Leviathon Wakes",
+      "author": "James S. A. Corey",
+      "genreId": 3,
+      "description": "Leviathan Wakes is set in a future in which humanity has colonized much of the Solar System. Earth, governed by the United Nations, and the Martian Congressional Republic act as competing superpowers, maintaining an uneasy military alliance in order to exert dual hegemony over the peoples of the Asteroid belt, known as 'Belters'. Belters, whose bodies tend to be thin and elongated owing to their low-gravity environments, carry out the gritty, blue-collar work that provides the system with essential natural resources, but are largely marginalized by the rest of the Solar System polity. This class conflict particularly manifests itself in The Outer Planets Alliance (OPA), a network of loosely-aligned militant groups, which seeks to combat the Belt's exploitation at the hands of the 'Inners', who, in turn, have collectively branded the OPA a terrorist organization.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Leviathan_Wakes.jpg/220px-Leviathan_Wakes.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Caliban's War",
+      "author": "James S. A. Corey",
+      "genreId": 3,
+      "description": "Eighteen months after the events of Leviathan Wakes, the polities of the solar system remain in precarious balance as they watch unknowable events unfold on Venus. Earth and Mars are still poised for battle, however, not recognizing the dire warning that the Eros Incident held for humanity.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Calibans_War.jpg/220px-Calibans_War.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Abaddon's Gate",
+      "author": "James S. A. Corey",
+      "genreId": 3,
+      "description": "For generations, the solar system—Mars, the Moon, the Asteroid Belt—was humanity's great frontier. Until now. The alien artifact working through its program under the clouds of Venus has appeared in Uranus's orbit, where it has built a massive gate that leads to a starless dark.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/James_S.A._Corey_-_Abaddon%27s_Gate.jpeg/220px-James_S.A._Corey_-_Abaddon%27s_Gate.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Cibola Burn",
+      "author": "James S. A. Corey",
+      "genreId": 3,
+      "description": "Cibola Burn sees the crew of the Rocinante on a new frontier, as the rush to colonize the new planets threatens to outrun law and order and give way to war and chaos.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Cibola_Burn.jpg"
+    },
+    {
+      "title": "Eragon",
+      "author": "Christopher Paolini",
+      "genreId": 4,
+      "description": "The book tells the story of a farm boy named Eragon, who finds a mysterious stone in the mountains. The stone is revealed to be a dragon egg, and a dragon he later names Saphira hatches from it. When the evil King Galbatorix finds out about the egg, he sends monstrous servants to acquire it, making Eragon and Saphira flee from their hometown with a storyteller named Brom. Brom, an old member of an extinct group called the Dragon Riders, teaches Eragon about 'The Ways of the Rider.'",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Eragon_book_cover.png/200px-Eragon_book_cover.png",
+      "id": 7
+    },
+    {
+      "title": "Nemesis Games",
+      "author": "James S. A. Corey",
+      "genreId": 3,
+      "description": "The Rocinante is down for long-term maintenance after the events of Cibola Burn. Three crew members decide to take care of some personal business during the down time. Amos Burton heads to Earth when he learns someone important from his past there has died, both to pay his formal respects, and to make sure no foul play was involved. Alex Kamal heads to Mars in the hopes of getting closure with his ex-wife and to see Bobbie while there. Naomi Nagata heads to Ceres station, when she receives a message that her son Filip is in trouble. While Jim Holden supervises repairs to the Rocinante, he is enlisted by Monica Stuart to investigate disappearing colony ships.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/60/Nemesis_Games.jpg",
+      "id": 8
+    },
+    {
+      "title": "Babylon's Ashes",
+      "author": "James S. A. Corey",
+      "genreId": 3,
+      "description": "In Bablyon's Ashes, the so-called Free Navy, made up of Belters using stolen military ships, has been growing ever bolder. After the crippling attacks on Earth and the Martian Navy, the Free Navy turns its attention to the colony ships headed for the ring gates and the worlds beyond. The relatively defenseless ships are left to fend for themselves, as neither Earth nor Mars is powerful enough to protect them. James Holden and the crew of the Rocinante are called upon once again by what remains of the UN and Martian governments to go to Medina Station, now in the hands of the Free Navy, in the ring station. On the other side of the rings, an alien threat is growing: the Free Navy may be the least of humanity's problems.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/68/Babylons_Ashes.jpg",
+      "id": 9
+    },
+    {
+      "title": "Persepolis Rising",
+      "author": "James S. A. Corey",
+      "genreId": 3,
+      "description": "Twenty-eight years have passed since the events of Babylon's Ashes and Earth is back on its feet after the attack that crippled the planet in Nemesis Games. The crew of the aging gunship Rocinante are still together, working contracts for the Transport Union, who have control of the Ring station and the 1,300 worlds the gates lead to. After receiving a morally dubious order from Camina Drummer, who now leads the Transport Union, Holden and Naomi decide to retire and hand over the Rocinante's captaincy to Bobbie. No one has heard from Admiral Duarte and his rogue fleet in the thirty years since they broke away from the Martian Congressional Republic Navy, until now. They have spent their time in the Laconia system building an advanced fleet using leftover technology from the protomolecule creators. The Laconians send out a message announcing the end of their self-imposed exile before sending an enormous new battleship called 'Heart of the Tempest' through their gate to capture Medina station and install a new governor. The battleship destroys the railgun emplacements installed by the Free Navy on the ring-gate station using a new magnetic weapon that can disintegrate matter at the atomic level.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Persepolis_Rising.jpg/220px-Persepolis_Rising.jpg",
+      "id": 10
+    },
+    {
+      "title": "Tiamat's Wrath",
+      "author": "James S. A. Corey",
+      "genreId": 3,
+      "description": "Following the events of Persepolis Rising, James Holden is a captive on Laconia, allowed to roam the grounds of High Consul Winston Duarte’s palace but with little other freedom. He pays his respects to Chrisjen Avasarala, who died four months previously, and talks with her granddaughter and Camina Drummer, former president of the defunct Transport Union.\n\nThrough another of the Ring gates, Elvi Okoye, her husband Fayez and several other scientists are sent on a Laconian mission to the “dead worlds”, systems past the ring gates which have no habitable worlds. They find a planet-size green diamond which interacts strangely with their sample of active protomolecule but are forced by the commander to move on to the next system before they can adequately probe it. They arrive to find a neutron star pushed to the edge of the Tolman-Oppenheimer-Volkov limit, with no other matter in the area. The Laconian commander reveals their plan to send an antimatter-laden ship through the ring gates to attack the creatures which have been seen “eating” ships.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Tiamats_Wrath.jpg/220px-Tiamats_Wrath.jpg",
+      "id": 11
+    },
+    {
+      "title": "Leviathan Falls",
+      "author": "James S. A. Corey",
+      "genreId": 3,
+      "description": "Following the events of Tiamat's Wrath, Winston Duarte, seemingly awakening from his semi-catatonic state, projects himself into Trejo's mind, who is currently reconquering the Sol system for the Laconian Empire. Duarte expresses gratitude for Trejo's efforts in preserving the Empire and admits they had been thinking too small in their empire-building vision. Duarte then vanishes, prompting Trejo to order a return to Laconia. Upon arrival, Duarte has already disappeared from the state building, and Colonel Aliana Tanaka is tasked to locate him with the highest level of clearance.\n\nTanaka's search leads her to the cave Amos Burton once inhabited, where she deduces that Duarte likely left in an alien ship. She decides to use Teresa as bait to lure Duarte and begins investigating a girls' boarding school on a colony world as a possible location for Teresa. Meanwhile, Elvi and her team, along with the immortal children Xan and Cara, are investigating the Adro Diamond. As they dive into the library using the catalyst, some of Cara's experiences bleed into Amos, who has been similarly altered.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7c/Leviathan_Falls.jpg",
+      "id": 12
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J. R. R. Tolkien",
+      "genreId": 4,
+      "description": "The Hobbit is set in Middle-earth and follows home-loving Bilbo Baggins, the hobbit of the title, who joins the wizard Gandalf and thirteen dwarves that make up Thorin Oakenshield's Company, on a quest to reclaim the dwarves' home and treasure from the dragon Smaug. Bilbo's journey takes him from his peaceful rural surroundings into more sinister territory.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/TheHobbit_FirstEdition.jpg/220px-TheHobbit_FirstEdition.jpg",
+      "id": 13
+    },
+    {
+      "title": "The Wind Blows in Sleeping Grass",
+      "author": "Katie Powner",
+      "genreId": 1,
+      "description": "After years of drifting, fifty-year-old Pete Ryman has settled down with his potbellied pig, Pearl, in the small town of Sleeping Grass--a place he never expected to see again. It's not the life he dreamed of, but there aren't many prospects for a high school dropout like him.",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1687766812i/90240384.jpg",
+      "id": 14
+    },
+    {
+      "title": "In the Land of Dead Horses",
+      "author": "Bruce McCandless III",
+      "genreId": 1,
+      "description": "In the Land of Dead Horses tells the story of Texas Ranger Jewel T. Lightfoot’s pursuit of and confrontation with a resurrected horror from another age —a manifestation of the Mayan god of darkness, unearthed from its subterranean crypt in the wastelands of the Chihuahuan Desert and set loose on an unsuspecting world.",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627005887i/57445408.jpg",
+      "id": 15
+    },
+    {
+      "title": "But Not Forgotten",
+      "author": "BJ Bourg",
+      "genreId": 2,
+      "description": "After suffering the biggest loss of his life, Clint Wolf becomes the police chief for a sleepy little town in the swamps of Louisiana. However, the town wakes up fast when a human arm is found in the jowls of a large alligator and it's later learned that the victim was murdered.",
+      "image": "https://m.media-amazon.com/images/I/A1VxM6uDn8L._SL1500_.jpg",
+      "id": 16
+    },
+    {
+      "title": "The Girl Who Lived",
+      "author": "Lisa Jackson",
+      "genreId": 2,
+      "description": "All her life, she’s been the girl who survived. Orphaned at age seven after a horrific killing spree at her family’s Oregon cabin, Kara McIntyre is still searching for some kind of normal. But now, twenty years later, the past has come thundering back. Her brother, Jonas, who was convicted of the murders has unexpectedly been released from prison. The press is in a frenzy again. And suddenly, Kara is receiving cryptic messages from her big sister, Marlie—who hasn’t been seen or heard from since that deadly Christmas Eve when she hid little Kara in a closet with a haunting, life-saving command: Don’t make a sound.",
+      "image": "https://m.media-amazon.com/images/I/81T5H65ykNL._SL1500_.jpg",
+      "id": 17
+    },
+    {
+      "title": "My Favorite Kidnapper",
+      "author": "Melanie Moreland",
+      "genreId": 5,
+      "description": "A laugh out loud, unconventional opposites attract love story from New York Times bestselling author Melanie Moreland\nI touched her confectionary creation, and she told me off.\nSlapping my hands and cursing in her own unique fashion.\nNo one talked to me that way.\nI liked it.\nI liked her cake even more.\nSo, I took her to Italy to bake for me.\nI should have asked her first, but I had a feeling she’d say no.\nI brought her cat, though—that should count for something.\nNow, I just need to convince her to stay.\nAnd forget that little word.\n𝙆𝙞𝙙𝙣𝙖𝙥𝙥𝙚𝙧.\nI’d prefer lover.\nBut we’ll wait until she doesn’t want to kill me in my sleep.",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1689858720i/141309941.jpg",
+      "id": 18
+    },
+    {
+      "title": "Flicker in the Dark",
+      "author": "Stacy Willingham",
+      "genreId": 6,
+      "description": "When Chloe Davis was twelve, six teenage girls went missing in her small Louisiana town. By the end of the summer, her own father had confessed to the crimes and was put away for life, leaving Chloe and the rest of her family to grapple with the truth and try to move forward while dealing with the aftermath.",
+      "image": "https://m.media-amazon.com/images/I/81FGbR7AYqL._SL1500_.jpg",
+      "id": 19
+    },
+    {
+      "title": "IT",
+      "author": "Stephen King",
+      "genreId": 7,
+      "description": "During a rainstorm in Derry, Maine, a six-year-old boy named Georgie Denbrough sails a paper boat along the rainy streets before it washes down into a storm drain. Looking in the drain, Georgie encounters a clown who introduces himself as Pennywise the Dancing Clown. Georgie, despite knowing he should not talk to strangers, is enticed by Pennywise to reach into the drain and retrieve his boat. It then rips his arm off, and Georgie dies.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/It_%281986%29_front_cover%2C_first_edition.jpg/220px-It_%281986%29_front_cover%2C_first_edition.jpg",
+      "id": 20
+    },
+    {
+      "title": "The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "genreId": 8,
+      "description": "In 1942, with the Nazis occupying Holland, a thirteen-year-old Jewish girl and her family fled their home in Amsterdam and went into hiding. For the next two years, until their whereabouts were betrayed to the Gestapo, the Franks and another family lived cloistered in the “Secret Annexe” of an old office building. Cut off from the outside world, they faced hunger, boredom, the constant cruelties of living in confined quarters, and the ever-present threat of discovery and death. In her diary Anne Frank recorded vivid impressions of her experiences during this period. By turns thoughtful, moving, and surprisingly humorous, her account offers a fascinating commentary on human courage and frailty and a compelling self-portrait of a sensitive and spirited young woman whose promise was tragically cut short.",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1560816565i/48855.jpg",
+      "id": 21
+    },
+    {
+      "title": "The Morning River",
+      "author": "W. Michael Gear",
+      "genreId": 9,
+      "description": "It's the year 1825, in the untamed vastness of the American frontier. Richard Hamilton, a Harvard philosophy student, disembarks in St. Louis on business, stepping unwittingly into a world of danger and intrigue. Stripped of his possessions and left bruised, he seeks refuge on the Maria, a sturdy keelboat destined for the Upper Yellowstone River, helmed by a seasoned fur trader. Thus begins Richard's voyage into the heart of the wild, a journey that will challenge him beyond his wildest dreams.",
+      "image": "https://m.media-amazon.com/images/I/91FHlD-IOkL._SL1500_.jpg",
+      "id": 22
+    },
+    {
+      "title": "The Revolutionary: Samuel Adams",
+      "author": "Stacy Schiff",
+      "genreId": 11,
+      "description": "Thomas Jefferson asserted that if there was any leader of the Revolution, “Samuel Adams was the man.” With high-minded ideals and bare-knuckle tactics, Adams led what could be called the greatest campaign of civil resistance in American history.   Stacy Schiff returns Adams to his seat of glory, introducing us to the shrewd and eloquent man who supplied the moral backbone of the American Revolution. A singular figure at a singular moment, Adams amplified the Boston Massacre. He helped to mastermind the Boston Tea Party.",
+      "image": "https://m.media-amazon.com/images/I/61feuXGcwyL._SL1000_.jpg",
+      "id": 23
+    },
+    {
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "genreId": 12,
+      "description": "The Hunger Games trilogy takes place in an unspecified future time, in the dystopian, post-apocalyptic nation of Panem, located in North America.[10] The country consists of a wealthy Capitol city, located in the Rocky Mountains,[11] surrounded by twelve (originally thirteen) poorer districts ruled by the Capitol. The Capitol is lavishly rich and technologically advanced, but the districts are in varying states of poverty. The trilogy's narrator and protagonist, Katniss Everdeen, lives in District 12, the poorest region of Panem, located in Appalachia,[11] where people regularly die of starvation. As punishment for a past rebellion against the Capitol (called the \"Dark Days\"), in which District 13 was destroyed, one boy and one girl from each of the twelve remaining districts, between the ages of 12 and 18, are selected by lottery to compete in an annual pageant called the Hunger Games. The Games are a televised event in which the participants, called \"tributes\", are forced to fight to the death in a dangerous public arena. The winning tribute and his or her home district are then rewarded with food, supplies, and riches. The purposes of the Hunger Games are to provide entertainment for the Capitol and to remind the districts of the Capitol's power and its lack of remorse or forgiveness for the failed rebellion of the current competitors' ancestors.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/The_Hunger_Games_cover.jpg/220px-The_Hunger_Games_cover.jpg",
+      "id": 24
+    },
+    {
+      "title": "On the Origin of Time: Stephen Hawking's Final Theory",
+      "author": "Thomas Hertog",
+      "genreId": 13,
+      "description": "Perhaps the biggest question Stephen Hawking tried to answer in his extraordinary life was how the universe could have created conditions so perfectly hospitable to life. In order to solve this mystery, Hawking studied the big bang origin of the universe, but his early work ran into a crisis when the math predicted many big bangs producing a multiverse—countless different universes, most of which would be far too bizarre to ​harbor life.",
+      "image": "https://m.media-amazon.com/images/I/71VducierrL._SL1500_.jpg",
+      "id": 25
+    },
+    {
+      "title": "Milk and Honey",
+      "author": "Rupi Kaur",
+      "genreId": 16,
+      "description": "The book is divided into four chapters, and each chapter serves a different purpose. Deals with a different pain. Heals a different heartache. milk and honey takes readers through a journey of the most bitter moments in life and finds sweetness in them because there is sweetness everywhere if you are just willing to look.",
+      "image": "https://m.media-amazon.com/images/I/71Eq55V2AvL._SL1500_.jpg",
+      "id": 26
+    },
+    {
+      "title": "The Power of Letting Go",
+      "author": "John Purkiss",
+      "genreId": 14,
+      "description": "The Power of Letting Go brings together a number of key principles that come up for anyone who is on the journey of self-enquiry and development. At some point, the choice becomes clear, whether to hold on or let go.",
+      "image": "https://m.media-amazon.com/images/I/71pmxXvnuvL._SL1500_.jpg",
+      "id": 27
+    },
+    {
+      "title": "The History of the World",
+      "author": "J. M. Roberts",
+      "genreId": 17,
+      "description": "In this new edition, Bancroft Prize winning historian Odd Arne Westad has completely revised this landmark work to bring the narrative up to the twenty first century, including the 9/11 attacks and the wars in the Middle East. Westad utilizes the remarkable gains in scholarship in recent decades to enhance the book's coverage of early human life and vastly improve the treatment of India and China, Central Eurasia, early Islam, and the late Byzantine Empire, as well as the history of science, technology, and economics. The result is a truly remarkable work of compression and synthesis, sweeping through thousands of years of history, weaving the stories of empires, art, religion, economics, and science into a lucid and engaging narrative. ",
+      "image": "https://m.media-amazon.com/images/I/61LS0e82SbL._SL1500_.jpg",
+      "id": 28
+    },
+    {
+      "title": "12 Major World Religions",
+      "author": "Jason Boyett",
+      "genreId": 18,
+      "description": "For billions of people, having a religious belief system provides purpose in life. For some, religion serves as a guide for moral behavior. Today's world is one in which our understanding of world religions is both understatedly important, as well as increasingly complex.",
+      "image": "https://m.media-amazon.com/images/I/61OFyC1WXbL._SL1360_.jpg",
+      "id": 29
+    },
+    {
+      "title": "Critical Thinkers",
+      "author": "Albert Rutherford",
+      "genreId": 19,
+      "description": "These people have at least one thing in common; they were great critical thinkers of their time and their shared wisdom lived through the centuries. Critical Thinkers provides intellectual power to engage with and participate in effective critical thoughts, arguments, debates, reading, and reflection drawn from methods in the history of philosophical cognitive development.",
+      "image": "https://m.media-amazon.com/images/I/61SUlF1HrcL._SL1360_.jpg",
+      "id": 30
+    },
+    {
+      "title": "The Bucket List",
+      "author": "Kath Stathers",
+      "genreId": 20,
+      "description": "A travel book like no other, this unique guide will inspire both seasoned trekkers and arm-chair globetrotters alike to build experiences you will treasure forever. You'll find memorable, once-in-a-lifetime activities organized by longitude and latitude (country-by-country index also included) so you can max out your itinerary with the best things to do and the best places to visit around the world. ",
+      "image": "https://m.media-amazon.com/images/I/91nX0NtH0-L._SL1500_.jpg",
+      "id": 31
+    },
+    {
+      "title": "The Clean Coder",
+      "author": "Robert C. Martin",
+      "genreId": 11,
+      "description": "In The Clean Coder: A Code of Conduct for Professional Programmers, legendary software expert Robert C. Martin introduces the disciplines, techniques, tools, and practices of true software craftsmanship. This book is packed with practical advice - about everything from estimating and coding to refactoring and testing. It covers much more than technique: It is about attitude. Martin shows how to approach software development with honor, self-respect, and pride; work well and work clean; communicate and estimate faithfully; face difficult decisions with clarity and honesty; and understand that deep knowledge comes with a responsibility to act.",
+      "image": "https://m.media-amazon.com/images/I/81Bkua6-koL._SL1500_.jpg",
+      "id": 32
+    },
+    {
+      "title": "Harry Potter and the Goblet of Fire",
+      "author": "J. K. Rowling",
+      "genreId": 4,
+      "description": "Harry Potter",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Harry_Potter_and_the_Goblet_of_Fire_cover.png",
+      "id": 33
+    },
+    {
+      "title": "Gardens of the Moon",
+      "author": "Steven Erikson",
+      "genreId": 4,
+      "description": "The novel opens in the 96th year of the Malazan Empire, during the final year of the rule of Emperor Kellanved. Ganoes Paran, age 12, witnesses the sacking of the Mouse Quarter of Malaz City. Paran wants to be a soldier when he grows older, though the veteran soldier Whiskeyjack disapproves.\n",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Three_Gardens_of_the_Moon.jpg/200px-Three_Gardens_of_the_Moon.jpg",
+      "id": 34
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "bookId": 5,
+      "userId": 1,
+      "text": "This book was awesome from start to finish. Very good detail!"
+    },
+    {
+      "bookId": 1,
+      "userId": 1,
+      "text": "I love the story, the characters and the setting. Very well planned out!",
+      "id": 5
+    },
+    {
+      "bookId": 7,
+      "userId": 1,
+      "text": "Love the Blue Dragon! Great Story!",
+      "id": 6
+    },
+    {
+      "bookId": 3,
+      "userId": 1,
+      "text": "James is my favorite author of all time! Great story design!",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "bookId": 2,
+      "userId": 2,
+      "text": "Great book! Excellent Delivery!!!!!!"
+    },
+    {
+      "bookId": 30,
+      "userId": 9,
+      "text": "Awesome book. Definitely goes into deeper thoughts on critical thinking!",
+      "id": 10
+    },
+    {
+      "bookId": 1,
+      "userId": 9,
+      "text": "Great Book!",
+      "id": 11
+    },
+    {
+      "bookId": 1,
+      "userId": 2,
+      "text": "This book is AMAZING!!!",
+      "id": 12
+    }
+  ]
+}
