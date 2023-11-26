@@ -1,14 +1,14 @@
-## Available Scripts
+## In the project directory, you can run:
 
-In the project directory, you can run:
-
+### `npm install`
 ### `npm start`
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Please run json database in terminal for full effect. 
 
+### Install JSON server
+* npm install json-server
 
-Please run json database in terminal for full effect. 
+### Run the database from the API directory
+* json-server -w database.json -p 8088
